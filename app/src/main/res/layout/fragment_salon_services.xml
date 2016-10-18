@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_bottom"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_medium">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <com.padc.beauty.components.MMTextView
+        android:id="@+id/tv_service_title"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:text="Day One"
+        android:layout_weight="1"/>
+
+    <com.padc.beauty.components.MMTextView
+        android:id="@+id/tv_service_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:ellipsize="end"
+        android:layout_weight="1"
+        android:text="Day One"/>
+    </LinearLayout>
+    <com.padc.beauty.components.DynamicHeightImageView
+        android:id="@+id/iv_services_image"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hairstyle1"/>
+    <com.padc.beauty.components.MMTextView
+        android:id="@+id/tv_services_description"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="14sp"
+        />
+</LinearLayout>

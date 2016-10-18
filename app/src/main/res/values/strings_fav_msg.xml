@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="add_favr">Added to Bookmarks</string>
+    <string name="remove_favr">Removed from Bookmarks</string>
+    <string name="no_favorites_items">No Bookmarks</string>
+	<string name="no_favorites_msg">Item to add to Bookmarks.</string>
+	<string name="favorites_remove_msg">Item to remove from Bookmarks.</string>
+</resources>

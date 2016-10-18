@@ -1,0 +1,216 @@
+<resources>
+    <string name="app_name">BEAUTY And HEALTH</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="content_authority">com.padc.beauty</string>
+    <!--Tips -->
+    <string name="face_tips">Face</string>
+    <string name="skin_tones">Skin Tones</string>
+    <string name="skin_tips">Skin Type</string>
+    <string name="body_tips">Body Shape</string>
+
+    <!--Face List-->
+    <string name="longface">Long Face</string>
+    <string name="roundface">Rounded Face</string>
+    <string name="ovalface">Oval Face</string>
+    <string name="squareface">Square Face</string>
+    <string name="heartface">Heart Face</string>
+    <string name="diamondface">Diamond Face</string>
+
+    <string-array name="face_tip_list">
+        <item>All Face Type</item>
+        <item>Long Face</item>
+        <item>Round Face</item>
+        <item>Oval Face</item>
+        <item>Square Face</item>
+        <item>Heart Face</item>
+        <item>Diamond Face</item>
+    </string-array>
+
+    <!--Face Tip  Title-->
+    <string name="hairstyle_facetip_title">Hair Style For Round Face</string>
+    <string name="sunglass_facetip_title">Sunglasses for Round face</string>
+    <string name="jewlery_facetip_title">Jewlery for Round face</string>
+
+    <!--Face Tip Desc-->
+     <string name="hairstyle_facetips"><![CDATA[<p> <b>Adding volume on the top of your head will help elongate your face.</b> To achieve this look take some voluminizing gel and gently apply it to the roots of your hair<br />
+    <b>A hairdo that sits close to the sides of your face</b> will visually slim down your cheekbones and chin by keep drawing the eye down and up, instead of to the sides
+    <br /><b>Below the chin haircuts</b> help draw the eye up and down and make your face look more angular.</p>]]></string>
+     <string name="sunglasses_facetips"><![CDATA[<p> Since your goal is to make the face look longer and thinner, your most flattering choice would be frames with <b>straight lines </b> but with slightly rounded corners and that are <b>slightly wider than the broadest part of the face</b>to make your face look trimmer and smaller in comparison.<br />Also, sunglasses should reflect the scale of your face - so if you have a wide/big face, look for oversized glasses. And vice versa for petite round faces. Also, de-emphasize the roundness by adding definition with angular but soft frame styles (eg. Rectangular with rounded corners). High temple glasses will also help elongate your face.</p>
+    ]]></string>
+    <string name="jewellery_facetips"><![CDATA[<p> <b>Long, slimming and somewhat angular jewelry are your best investments. </b> That includes oval and pointy earrings and pendants - so avoid the super chunky and horizontal ones.<br />Earrings should extend past your chin to draw attention to the neck and elongate it - anything above that will emphasize the roundness. However, simple studs like pearl and crystal stud earrings that are average in size (does not extend past the bottom of your ear flip) are universally flattering on all face shapes.<br />Also, large earrings (eg. Large hoops) will give an impression that your wide face is smaller and thinner. Just make sure they extend past your jawline.</p>
+    ]]></string>
+
+    <!--Skin Tone List-->
+    <string name="coolskin">Cool Skin Tone</string>
+    <string name="warmskin">Warm Skin Tone</string>
+    <string name="meduimskin">Meduim Skin Tone</string>
+
+    <string-array name="Skin_Tone_tip_list">
+        <item>All Skin Tone</item>
+        <item>Cool Skin Tone</item>
+        <item>Warm Skin Tone</item>
+        <item>Meduim Skin Tone</item>
+    </string-array>
+
+    <string name="allskintone">All Skin Tone</string>
+    <string name="allfacetype">All Face Type</string>
+    <string name="allbodytype">All Body Type</string>
+    <!--Warn Skin Tone Tip  Title-->
+    <string name="foundation_skintone_title">Foundation For Warm Skin Tone</string>
+    <string name="powder_skintone_title">Powder For Warm Skin Tone</string>
+    <string name="lipstick_skintone_title">Lipstick For Warm Skin Tone</string>
+    <string name="eyeshadow_skintone_title">Eyeshadow For Warm Skin Tone</string>
+    <string name="blush_skintone_title">Blush For Warm Skin Tone</string>
+
+    <!--Warn SkinTone Tip Desc-->
+    <string name="foundation_skintone_desc">The choice of the foundation is most important for women sporting the warm skin tone. Since this forms the base of the entire make-up, the color of the foundation must match with the undertones of the skin. The right choice is to pick the foundation which has yellow base. A variation in the subtle golden hues in the foundation will make your skin more appealing and attractive.</string>
+    <string name="powder_skintone_desc">A yellow based powder will go perfect with your skin tone. It is ideal to look for a loose powder which can be evenly patted or applied all over the face. Make sure to apply it on the T-zones of your face so as to control excessive oil.</string>
+    <string name="lipstick_skintone_desc">Shades of rose, purple and magenta must be your picks if you have a warm skin tone. Strictly refrain yourself from wearing stark shades of red and cherry as they would rather turn your natural look into an unflattering dramatic appeal. It is ideal examine the basic color of the lipstick on a sheet of white paper and then purchase the right shade.</string>
+    <string name="eyeshadow_skintone_desc">For your skin tone, hues of bronze, light brown, soft green are ideal. These shades will easily blend with the shade of your skin and render you a natural appeal. Choice of stark red, navy blue and cherry could be disastrous for your look.</string>
+    <string name="blush_skintone_desc"><![CDATA[<p>Bolder colors like rich bronzes, intense browns look the best on your skin tone and give a natural glow.<br />Refrain yourself from wearing shades that are absolute contrast to the natural shade of your skin. Colors like white, cream and beige will be appalling for your skin and call for unwanted attention. Further, extreme dark shades like intense reds, golds, and greens must also be avoided.</p>]]></string>
+
+
+    <!-- Body Shape-->
+    <string-array name="body_shape">
+        <item>All Body Type</item>
+        <item>Pear Body Type</item>
+        <item>Apple Body Type</item>
+        <item>Straight or Rectangle Body Type</item>
+        <item>Spoon Body Type</item>
+        <item>Hourglass Body Type</item>
+    </string-array>
+
+    <!--bodyshape Title For Pear Body-->
+    <string name="bodyshape_dress_title">Dress for Pear Body</string>
+    <string name="bdshape_do_and_dont_title">Dos and Donts</string>
+
+    <string name="bdshape_desc_dress">The trick to dressing this body type is to wear anything that adds to your shoulder and bust area. Keep attention to your upper body, by minimizing the lower half.</string>
+
+     <string name="bdshape_desc_do_and_dont"><![CDATA[\n\u2022If you’re a pear body-type, there are things you can do to make your hips and butt look slimmer, if you want to make their butts bigger.<br />\n\u2022Balance your top with your bottom. Try to wear tops that accentuate your shoulders a bit more.<br />\n\u2022Avoid pants or tights that narrow your legs.<br />\n\u2022Wear straight-leg or slightly flared pants with heels. Skinny pants that hug your ankles can make your lower body take on the appearance of an upside-down triangle. Flared pants can make your legs look very thick, perhaps bowl-legged, in comparison to your upper body.]]></string>
+
+
+    <!--Menu-->
+    <string name="beauty_tips">Tips</string>
+    <string name="dressing">Dressing</string>
+    <string name="personality">Personality Tips</string>
+    <string name="fitness">Fitness and Health</string>
+    <string name="saloon_and_fashionshop">Beauty Saloon and Fashion Shop </string>
+    <string name="tutorials">Tutorialsမ်ား </string>
+    <string name="bookmark">Bookmark</string>
+
+    <string-array name="Skin_Type_tip_list">
+        <item>Normal Skin</item>
+        <item>Oily Skin</item>
+        <item>Sencentive Skin</item>
+    </string-array>
+
+
+    <string name="skin_title">MakeUp For Oily Skin</string>
+    <string name="skin_title1">Foundation For Oily Skin</string>
+
+    <string name="sample_facetips"><![CDATA[<p> <b>Adding volume on the top of your head will help elongate your face.</b> To achieve this look take some voluminizing gel and gently apply it to the roots of your hair</p>
+    <p><b>A hairdo that sits close to the sides of your face</b> will visually slim down your cheekbones and chin by keep drawing the eye down and up, instead of to the sides</p>
+    <p><b>Below the chin haircuts</b> help draw the eye up and down and make your face look more angular.</p>]]></string>
+
+
+    <string name="body_doanddont">Dos and Donts</string>
+    <string name="body_dos">DO try A-line skirts</string>
+    <string name="body_dos1">DO keep hems of pants, skirts and dresses wide to balance the hips.</string>
+    <string name="title_activity_special_tips">SpecialTipsActivity</string>
+    <string name="title_activity_workout">Health and Fitness Detail</string>
+
+    <string name="sample_facetips1">V-necks are not good, but bows and soft cowls are fine</string>
+    <string name="sample_skintips">
+Conceal your blemishes. Oily skin is prone to breakouts and blemishes. Applying light layers of liquid matte concealer will help to minimize these imperfections without causing new breakouts. Use the wand or a concealer brush to cover your dark circles, red marks, and imperfections.
+For additional coverage, apply a layer of liquid concealer, followed by a layer of powder foundation and another layer of liquid concealer. Seal in the makeup with a final coat of powder foundation. The more layers you apply, the more likely you are to see shiny spots throughout the day. This application method may require several touch ups.
+Avoid cream concealers—they will clog your pores.</string>
+    <string name="sample_skintips1">Long-lasting powder foundations create an even complexion while combatting excess oil. Before you purchase foundation, read the label carefully—make sure the product is oil-free, mattifying, and noncomedogenic (will not clog your pores). Apply a thin, even layer of powder with a large powder brush. Move the brush in a circular and dabbing motion.
+If you need additional coverage, apply a second layer of powder with a clean, damp sponge. Move the sponge in a circular and dabbing motion.[9]
+If you do not like powder foundation, select a mousse foundation or a water-based liquid foundation.</string>
+    <string name="workout">Workout</string>
+    <string name="diet">Diet</string>
+    <string name="title_activity_specialtip">SpecialtipActivity</string>
+
+    <!--specific tips question-->
+    <string name="facetypeques">Choose your Face Type</string>
+    <string name="skinques">Choose Your Skin Tones</string>
+    <string name="bodyshapeques">Choose Your Body Shape</string>
+
+    <string name="workout_main_title"><![CDATA[ Best workout <b><font color=#E91E63>FOR YOUR BODY TYPE</b> ]]></string>
+    <string name="workout_desc_for_pearbdtype"><![CDATA[<b> Workout for Pear Body Type</b><br>Pears populate the roster of bombshell beauties, from Alicia Keys to Jennifer Love Hewitt. As the name of this body type implies, pears are proportionally smaller on top, easily pack weight onto their lower bodies, and have a hard time toning their arms and shoulders.]]></string>
+    <string name="workout_desc_for_straightbdtype"><![CDATA[<b> Workout for Straight Body Type</b><br>Women with ruler-straight body types, like Cameron Diaz, can wear nearly anything—but they don’t generally have the girl curves to really kick it up in a bikini. Any weight they do carry usually forms a little potbelly, just like the boys get. Straight/boyish builds are similar to athletic types in that they also carve a fairly square silhouette; but unlike their athletic counterparts, boyish builds tend to have a tough time getting muscle tone.]]></string>
+    <string name="workout_desc_for_athleticbdtype"><![CDATA[<b> Workout for Athletic Body Type</b><br>Think Hayden Panettiere or Jessica Biel—broad across the back and shoulders, narrower through the hips. Athletic builds are often short-waisted (and maybe a little thick-waisted), tend to have square silhouettes, and will have a lower ratio of fat to muscle than curvy or pear-shaped body types. Swimsuits can be tough to find for athletic builds, because what fits the bottom half will often be too small to stretch over the top.]]></string>
+    <string name="workout_desc_for_curvybdtype"><![CDATA[<b> Workout for Curvy Body Type</b><br>Curvaceous like Beyoncé or Scarlett Johannson, woman with curvy body types are balanced beauties who fill out a bikini top and bottom. When they gain weight, it tends to be all over. Like pears with larger chests, they have the curves, but what they usually lack is all-over muscle tone.]]></string>
+
+    <string name="saloon">Beauty Salon</string>
+    <string name="fashionshop">Fashion Shop</string>
+    <string name="saloon_services">Services</string>
+    <string name="aboutus">About</string>
+
+    <!--Tips -->
+    <string name="wedding_dressing">Occasional</string>
+    <string name="dinner_dressing">Free</string>
+
+
+    <string name="makeup">Makeup</string>
+    <string name="hair">Hair</string>
+    <string name="nail_art">Nail Art</string>
+
+
+    <string name="cardio_exercise"><![CDATA[<p><b>A.</b>Grab a pair of dumbbells and stand with feet wide, toes turned out about 45 degrees. Raise arms overhead in a wide V palms facing in.
+    </p><p><b>B.</b>Lower into a plié position (bending knees over toes) as elbows bend in by sides until palms line up with shoulders. Reverse motion to return to starting position; repeat.
+    <br><b>Sets:</b>3<br><b>Reps:</b>20]]></string>
+
+    <string name="capoeria_exercise"><![CDATA[<p><b>A.</b>Begin in a curtsy lunge position with left leg crossed behind right and upper body rotated to the right, elbows bent at chest level and open to sides, palms facing down.
+    </p><p><b>B.</b>Kick back foot out to leap to the left, extending both legs out to the sides in mid-air, swinging arms in front of body. Land on left leg and immediately lower into curtsey lunge and rotate torso and arms to the left to complete one rep. Do the prescribed number of reps, moving as quickly as you can with good form.
+    <br><b>Sets:</b>3<br><b>Reps:</b>20]]></string>
+
+
+    <string name="weddingdressbride">Yellow Princess Myanmar Tradional Dress</string>
+    <string name="weddingdressnormaldress">Akasashs Dress</string>
+    <string name="weddingdresssilk">Pink Dress</string>
+    <string name="personality_interview">10 tips to improve interview performance</string>
+    <string name="good_personality">Developing Good Personality Characteristics</string>
+    <string name="caring_for_other">Caring For Others</string>
+
+
+    <string name="lili_beautysalon"><![CDATA[<font color=#E91E63>Li Li Beauty Salon</font><br>No.518, Phone Gyee Rd, Cor of Kanner St , Yangon, Myanmar]]></string>
+    <string name="koko_beautysalon"><![CDATA[<font color=#E91E63>Ko Ko Beauty Salon</font><br>Level 3,, Taw Win Centre, Yangon, Myanmar]]></string>
+    <string name="seri_beautysalon"><![CDATA[<font color=#E91E63>Seri Beauty Salon</font><br>144, Dhamazedi Road, Yangon, Myanmar]]></string>
+    <string name="spamyway_beautysalon"><![CDATA[<font color=#E91E63>Seri Beauty Salon</font><br>9/111, Moemakha Street, Yangon, Myanmar]]></string>
+    <string name="tonytuntun_beautysalon"><![CDATA[<font color=#E91E63>Tony Tun TUn Beauty Salon</font><br>No. 279-281, Anawrahta Road , Yangon, Myanmar]]></string>
+    <string name="inyaday_spa"><![CDATA[<font color=#E91E63>Inya Day Spa</font><br>16/2, Inya Road, Yangon, Myanmar]]></string>
+    <string name="fahsiondream"><![CDATA[<font color=#E91E63>Fashion Dream</font><br>Hledan Market , Yangon, Myanmar]]></string>
+    <string name="sulecenterpoint"><![CDATA[<font color=#E91E63>Sule Center Point</font><br>Sule Pagoda Road, Yangon, Myanmar]]></string>
+    <string name="mk"><![CDATA[<font color=#E91E63>MK Fashion Shop</font><br>333, Pyay Road, Yangon, Myanmar]]></string>
+    <string name="silverstar"><![CDATA[<font color=#E91E63>Silver Star Fashion Shop</font><br>No. 177 , Banyardala Road, Yangon, Myanmar]]></string>
+    <string name="papillon"><![CDATA[<font color=#E91E63>Papillon</font><br>2nd Floo, Taw Win Centre , Yangon, Myanmar]]></string>
+    <string name="baza"><![CDATA[<font color=#E91E63>BAZA</font><br>Second Floor, Taw Win Center, Rm.3047, Yangon, Myanmar]]></string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_previous">Previous</string>
+    <string name="shopname">Taw Win</string>
+    <string name="shopaddr">3 rd Floor</string>
+
+    <style name="buildingconfidence">Building Confidence in Your Personality</style>
+
+    <string name="personality_one_title">Remain happy and lighthearted</string>
+    <string name="personality_two_title">Try to stay calm in tense situations</string>
+    <string name="personality_three_title">Keep an open mind</string>
+
+    <string name="personality_one_content">Try to see the joy in the world. Laugh with others, but not at them. Everyone appreciates someone who is jolly and jovial. Smiling and laughing a lot is a huge part of having a good personality.</string>
+    <string name="personality_two_content">A lot of people seem like they have a good personality until you see them in an emergency or tense situation. Then they lose their cool. Don’t be this person! If you are in a tense situation, try to remain relaxed and see what you can do to resolve the situation.</string>
+    <string name="personality_three_content">One part about having a good personality is being willing to change your worldview. Listen to others and always be willing to change your mind. Don’t pass judgment on other people just because they act in a different way than you do. Keeping an open mind will allow you to make many new friends and probably live a much more interesting life. There’s no need to shut off parts of the world.</string>
+    <string name="estimate">Estimate</string>
+    <string name="suitable_style">Suitable Person</string>
+
+
+    <string name="msg_search_dressing">Please,key in price that you want to search</string>
+
+    <string name="action_share">Share</string>
+
+    <string name="no_record">There are no match records.</string>
+    <string name="price_msg">Please,put price.</string>
+    <string name="favorites">Favorites</string>
+    <string name="lbl_search">Search</string>
+</resources>

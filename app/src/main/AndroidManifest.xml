@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.padc.beauty">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Implicit Intents -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_HISTOR_BOOKMARKS"/>
+    <uses-permission android:name="android.browser.permission.READ_HISTOR_BOOKMARKS"/>
+
+    <application
+        android:name=".BeautyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/beauty_and_health"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SpecialtipActivity"
+            android:label="@string/title_activity_specialtip"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".activities.WorkoutDetailActivity"
+            android:label="@string/title_activity_workout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.FitnessandhealthActivity" />
+        </activity>
+        <activity
+            android:name=".activities.FitnessandhealthActivity"
+            android:label="@string/title_activity_workout"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.HomeActivity" />
+        </activity>
+        <activity android:name=".activities.PersonalityDetailActivity"
+            android:label="Personality"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.PersonalityListActivity"
+               />
+        </activity>
+        <activity android:name=".activities.PersonalityListActivity"
+            android:label="Personality"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.HomeActivity"
+                />
+        </activity>
+
+        <activity
+            android:name=".activities.BeautysalonDetailActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.BeautysalonlistActivity" />
+        </activity>
+        <activity android:name=".activities.BeautysalonlistActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.padc.beauty.activities.HomeActivity"
+                />
+        </activity>
+
+        <provider
+            android:name=".data.persistence.BeautyProvider"
+            android:authorities="@string/content_authority"
+            android:exported="false"/>
+    </application>
+
+</manifest>

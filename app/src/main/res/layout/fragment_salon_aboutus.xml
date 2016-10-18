@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_medium">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:paddingTop="@dimen/margin_medium"
+        android:paddingBottom="@dimen/margin_medium_2"
+        android:paddingLeft="@dimen/margin_medium"
+        android:paddingRight="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_medium_3">
+    <com.padc.beauty.components.MMTextView
+        android:id="@+id/tv_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        android:textSize="14sp"
+        android:text="Set in a compound which provides a luxurious retreat from the bustle of Yangon, we offer an environment themed around nature and relaxation. Our amenities include the popular Boost Bar smoothie (sometimes Tripadvisor's best restaurant in Yangon), tropical koi fish pond, lush garden landscape, steam/sauna and free WI-FI internet for customers."/>
+
+    <com.padc.beauty.components.MMButton
+        android:id="@+id/btn_booking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_intro"
+        android:layout_alignParentRight="true"
+        android:text="Booking"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:paddingLeft="@dimen/margin_medium"
+        android:paddingRight="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_medium"
+        android:paddingBottom="@dimen/margin_medium_2">
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_map_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/hairstyle1"/>-->
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_salon_name"
+
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beauty Salon Name"/>
+
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_address"
+            android:layout_below="@+id/tv_salon_name"
+            android:drawableLeft="@drawable/ic_room_black_24dp"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yankin, Yangon"/>
+    </RelativeLayout>
+</LinearLayout>

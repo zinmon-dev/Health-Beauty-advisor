@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/beauty_tips"
+            android:icon="@drawable/ic_local_library_black_24dp"
+            android:title="@string/beauty_tips"
+            android:checked="true"
+            />
+
+        <item
+            android:id="@+id/beauty_dressing"
+            android:icon="@drawable/ic_filter_vintage_black_24dp"
+            android:title="@string/dressing"/>
+
+        <item
+            android:id="@+id/personality"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="@string/personality"
+            />
+
+        <item
+            android:id="@+id/fitness"
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:title="@string/fitness"
+            />
+
+        <item
+            android:id="@+id/saloon_and_fashionshop"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="@string/saloon_and_fashionshop"
+            />
+        <item
+            android:id="@+id/beauty_tutorial"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:title="@string/tutorials"
+            />
+
+        <item
+            android:id="@+id/bookmarks"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="@string/bookmark"
+            />
+
+    </group>
+</menu>

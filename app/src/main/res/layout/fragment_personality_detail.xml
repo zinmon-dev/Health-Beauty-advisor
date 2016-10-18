@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/margin_small"
+    android:paddingBottom="@dimen/margin_small"
+    tools:context=".fragments.PersonalityDetailFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.padc.beauty.components.DynamicHeightImageView
+                android:id="@+id/iv_personality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_small"
+                android:scaleType="centerCrop"
+                android:layout_gravity="top"/>
+            <ImageView
+                android:id="@+id/iv_bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="@dimen/margin_medium"
+                android:contentDescription="@string/favorites"
+                android:src="@drawable/ic_import_contacts_black_24dp"
+                android:background="@null" />
+        </FrameLayout>
+
+
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_personality_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            style="@style/SubTitleTextStyle"/>
+
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_personality_Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:paddingBottom="@dimen/margin_small"
+            style="@style/DescTextStyle"/>
+
+    </LinearLayout>
+    </ScrollView>

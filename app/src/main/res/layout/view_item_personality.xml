@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/margin_small"
+    android:layout_marginRight="@dimen/margin_small">
+    <LinearLayout
+        android:id="@+id/ll_good_personality"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_rounded_corner">
+        <com.padc.beauty.components.DynamicHeightImageView
+            android:id="@+id/iv_personality"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/develop_a_good_personality_step1"
+            android:padding="@dimen/margin_medium_2"/>
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_personality"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:paddingLeft="@dimen/margin_small"
+            android:layout_alignParentRight="true"
+            android:text="@string/good_personality"
+            style="@style/PersonalityTextStyle"
+            android:layout_gravity="center_horizontal"
+            android:padding="@dimen/margin_medium"/>
+    </LinearLayout>
+</LinearLayout>

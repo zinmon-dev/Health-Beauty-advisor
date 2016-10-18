@@ -1,0 +1,109 @@
+ <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_medium">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical"
+        android:orientation="vertical">
+
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_facequest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/facetypeques"
+            android:paddingLeft="@dimen/margin_medium"
+            android:paddingTop="@dimen/margin_medium" />
+                <RadioGroup
+                    android:id="@+id/rdgrp_face"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/longface"
+                        android:layout_marginTop="@dimen/margin_small"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/roundface"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ovalface"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/squareface"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/heartface"/>
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/diamondface"/>
+                </RadioGroup>
+                <com.padc.beauty.components.MMTextView
+                    android:id="@+id/tv_skinquest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/skinques"
+                    android:paddingLeft="@dimen/margin_medium"
+                    android:paddingTop="@dimen/margin_medium"
+                    android:layout_below="@id/rdgrp_face"/>
+                <RadioGroup
+                    android:id="@+id/rdo_skin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_skinquest">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/coolskin"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/warmskin"/>
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/meduimskin"/>
+                </RadioGroup>
+                <com.padc.beauty.components.MMTextView
+                    android:id="@+id/tv_bodyshapequest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bodyshapeques"
+                    android:paddingLeft="@dimen/margin_medium"
+                    android:paddingTop="@dimen/margin_medium"
+                    android:layout_below="@id/rdo_skin"/>
+                <Spinner
+                    android:id="@+id/sp_bodyshapequest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_bodyshapequest"
+                    android:layout_marginLeft="@dimen/margin_medium_2"
+                    android:layout_marginRight="@dimen/margin_medium" />
+                <Button
+                    android:id="@+id/btn_ok"
+                    style="@style/AccentButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_medium_2"
+                    android:layout_below="@id/sp_bodyshapequest"
+                    android:textColor="@color/primary"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textSize="@dimen/text_regular"
+                    android:text="Best Style For You" />
+
+
+     </LinearLayout>
+    </ScrollView>

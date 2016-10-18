@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/margin_medium">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_medium_2"
+        android:paddingBottom="@dimen/margin_medium_2">
+        <com.padc.beauty.components.MMTextView
+            android:id="@+id/tv_service_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hair style"
+            android:textColor="@color/primary"/>
+        <com.padc.beauty.components.DynamicHeightImageView
+            android:id="@+id/iv_services_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hairstyle1"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_below="@+id/tv_service_title"
+            android:scaleType="centerCrop"/>
+        <com.padc.beauty.components.MMTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_services_description"
+            android:textColor="#848484"
+            android:layout_below="@+id/iv_services_image"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:lineSpacingMultiplier="1.2"
+            android:textSize="14sp"
+            android:text="Deciphering your original beauty eyebrows more unique and meaningful. Illustrating eyebrows face and not be lost even owns its beauty. Eyebrows Deciphering your face nothing was not prepared until your face unique comprehensive round there's a will. Eyebrows pulling up in your face and matched natural virtue of beauty it possesses make is that as your eyebrows help David Copperfield mold (or) shaped like if personalizing the best service in the process of drafting."/>
+    </RelativeLayout>
+</LinearLayout>
+    </FrameLayout>

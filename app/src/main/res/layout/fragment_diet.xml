@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <com.padc.beauty.components.DynamicHeightImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:scaleType="centerCrop"
+       android:src="@drawable/diet_foods"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+        <com.padc.beauty.components.DynamicHeightImageView
+            android:id="@+id/iv_diet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/one"
+            android:layout_weight="1"/>
+
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_diet_one"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="Day One"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+        <ImageView
+            android:id="@+id/iv_diet1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/two"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_diet_two"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="Day Two"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+        <ImageView
+            android:id="@+id/iv_diet2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/three"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_diet_three"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="Day Three"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+        <ImageView
+            android:id="@+id/iv_diet3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/four"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_diet_four"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="Day Four"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_medium">
+        <ImageView
+            android:id="@+id/iv_diet4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/five"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/tv_diet_five"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:text="Day Five"/>
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

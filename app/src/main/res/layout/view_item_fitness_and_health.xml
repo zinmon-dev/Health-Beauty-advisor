@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/workoutlist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margin_small"
+    android:paddingRight="@dimen/margin_small"
+    android:paddingTop="@dimen/margin_small"
+    android:paddingBottom="@dimen/margin_small"
+    android:background="@drawable/border_color">
+    <com.padc.beauty.components.DynamicHeightImageView
+        android:id="@+id/iv_fitandhealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/best_body_pear_forworkout1"
+        android:scaleType="centerCrop"/>
+    <com.padc.beauty.components.MMTextView
+        android:id="@+id/tv_fitnessandhealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primary"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:elevation="@dimen/margin_small"
+        android:paddingLeft="@dimen/margin_medium"/>
+
+</LinearLayout>

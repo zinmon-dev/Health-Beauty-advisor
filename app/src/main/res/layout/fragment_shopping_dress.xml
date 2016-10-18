@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.padc.beauty.components.DynamicHeightImageView
+                android:id="@+id/iv_shoppingdressbride"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/shoppingdress_2"
+                android:scaleType="centerCrop"
+                android:layout_margin="@dimen/margin_small"
+                />
+
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_shoppingdress"
+                style="@style/TitleTextStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="bottom"
+                android:layout_margin="@dimen/margin_small"
+                android:text="@string/weddingdressbride"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.padc.beauty.components.DynamicHeightImageView
+                android:id="@+id/iv_shoppingdressnormaldress"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/shoppingdress_3"
+                android:scaleType="centerCrop"
+                android:layout_margin="@dimen/margin_small"
+                />
+
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_shoppingdressnormaldress"
+                style="@style/TitleTextStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="bottom"
+                android:layout_margin="@dimen/margin_small"
+                android:text="@string/weddingdressnormaldress"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.padc.beauty.components.DynamicHeightImageView
+                android:id="@+id/iv_shoppingdresssilk"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:src="@drawable/shoppingdress_4"
+                android:scaleType="centerCrop"
+                android:layout_margin="@dimen/margin_small"
+                />
+
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_shoppingdresssilk"
+                style="@style/TitleTextStyle"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal"
+                android:layout_gravity="bottom"
+                android:layout_margin="@dimen/margin_small"
+                android:text="@string/weddingdresssilk"/>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

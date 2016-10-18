@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:orientation="vertical">
+        <com.padc.beauty.components.DynamicHeightImageView
+            android:id="@+id/iv_beautysaloon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lilibeautysalon"
+            android:scaleType="centerCrop"/>
+        <ImageView
+            android:id="@+id/iv_bookmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:contentDescription="@string/favorites"
+            android:src="@drawable/ic_import_contacts_black_24dp"
+            android:tint="@color/text_black_ish"
+            android:background="@null" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:background="#bbc7c7c7"
+            android:focusable="false"
+            android:focusableInTouchMode="false" >
+
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_beautysaloonname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/primary"
+                android:textSize="14sp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="5dp"
+                android:minHeight="20dp"
+                />
+
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_beautysaloonaddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingBottom="0dp"
+                android:paddingLeft="5dp"
+                />
+            <com.padc.beauty.components.MMTextView
+                android:id="@+id/tv_openhr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="5dp"
+                android:lineSpacingMultiplier="1.2"
+                />
+        </LinearLayout>
+  </FrameLayout>
